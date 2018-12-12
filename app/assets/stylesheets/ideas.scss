@@ -5,13 +5,19 @@ body { padding-top: 100px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
-img {
-  padding: 2em;
-}
+
 .showImage{
   padding: 1em;
-
-
-
-
+}
+.container input[type="submit"] {
+  height: 30px;
+  font-size: 13px;
+  background-color: #f55e55;
+  border: none;
+  color: #fff;
+}
+.container a:hover {
+  color: #f55e55;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
 }

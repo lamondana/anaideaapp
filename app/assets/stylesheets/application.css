@@ -13,5 +13,44 @@
  *= require_tree .
  *= require_self
  */
+
 image{padding: 3em;
+}
+
+
+body {padding-top: 60px;
+      background-color: #DDDDDD;
+}
+.navbar {
+  min-height: 38px;
+  background-color: #3d3b4f;
+}
+.navbar a.brand { font-size: 18px; }
+.navbar a.brand:hover {
+ color: #fff;
+ background-color: transparent;
+ text-decoration: none;
+}
+.field{
+	width: 450px;
+	font-size: 16px;
+	padding: 30px 30px 15px 30px;
+
+}
+.field label {
+	display:block;
+	margin-bottom: 10px;
+}
+
+.field input[type=text],
+.field input[type=textarea]
+
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
 }
